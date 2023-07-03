@@ -52,7 +52,12 @@ The following image shows the web application after I edited the code.
 - 
 - 
 - 
-- 
+### License Images used 
+[MIT License:](https://img.shields.io/badge/License-MIT-yellow.svg)
+[GNU GPLv3:](https://img.shields.io/badge/License-GPLv3-blue.svg)
+[Apache License 2.0:](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+[ISC License: License:](https://img.shields.io/badge/License-ISC-blue.svg) 
+[BSD 2-Clause "Simplified" License:](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)
 
 
 **Note**: User story and acceptance criteria was provided to me in class
@@ -60,7 +65,7 @@ The following image shows the web application after I edited the code.
 
 ## My Github
 
-- https://github.com/xNoirNightx/
+- [Github](https://github.com/xNoirNightx/)
 
 ## License
 
