@@ -45,13 +45,13 @@ I followed the criteria below provided by the class instructors.
  **Note**: Im not a fan of back end hahah.
 
  ## Installation
-  To install the README Generator, follow these steps:
+ - To install the README Generator, follow these steps:
  - Clone the repository.
  - Navigate to the project directory.
  - Install the dependencies: npm install
 
  ## Usage
- To use the README Generator, run the following command inside the "Utils" folder:
+ - To use the README Generator, run the following command inside the "Utils" folder:
  - node index.js
  - Follow [Video Demo](https://www.dropbox.com/s/4lkd0ie7z5j9xm6/Challenge9.mp4?dl=0) if you need further assistance.
  - Answer the prompts with information about your project.
