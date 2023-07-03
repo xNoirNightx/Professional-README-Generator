@@ -63,13 +63,13 @@ const questions = [
 
 // TODO: Create a function to write README file
 const writeToFile = (fileName, data) => {
-    fs.writeFile(fileName, data)
-      .then(() => {
+    fs.writeFile(fileName, data, (err) => {
+      if (err) {
+        console.error(err);
+      } else {
         console.log(`README.md file generated as ${fileName}!`);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+      }
+    });
   };
 
 // TODO: Create a function to initialize app

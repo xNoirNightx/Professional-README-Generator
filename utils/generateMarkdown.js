@@ -50,8 +50,8 @@ ${data.contributing}
 ## Questions
 ---
 Any Questions ? , Please contact Me:
-- GitHub:
-- Email:
+- GitHub:[Your Github Username](https://github.com/yourusername)
+- Email: [Your email address](youremail@example.com)
 
 `;
 }
