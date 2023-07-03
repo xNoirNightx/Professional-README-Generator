@@ -1,4 +1,5 @@
-# ReadMe-Generator
+# Professional-README-Generator
+
 Professional README Generator for week 9 challenge
 
 ## Description
@@ -69,7 +70,7 @@ The following image shows the web application after I edited the code.
 
 ## My Github
 
-- [Github](https://github.com/xNoirNightx/Password-Generator)
+- [Github](https://xnoirnightx.github.io/Professional-README-Generator/)
 - [![Video Demo](./utils/assets/thumbnail.png)](./utils/assets/Challenge9.mp4)
 
 ## License
