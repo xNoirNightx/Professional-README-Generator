@@ -21,7 +21,20 @@ const licenseInfo = {
   }
 };
 
+function renderLicenseBadge(license) {
+  const licenseEntry = licenseInfo[license];
+  return licenseEntry ? licenseEntry.badge : '';
+}
 
+function renderLicenseLink(license) {
+  const licenseEntry = licenseInfo[license];
+  return licenseEntry ? licenseEntry.link : '';
+}
+
+function renderLicenseSection(license) {
+  const licenseEntry = licenseInfo[license];
+  return licenseEntry ? `## License\n\nThis application is covered under the [${license}](${licenseEntry.link}) license.` : '';
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {

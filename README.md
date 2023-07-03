@@ -8,7 +8,10 @@ I was tasked with my ninth challenge to make a README Generator.
 - I was able to problem solve and fix code.
 - I learned how to use NPMs 
 - I learned how to work better in terminal ( work in progress )
-- I learned how to work with node 
+- I learned how to work with node
+- I learned the importance of README files 
+
+**Note**: A README file enhances the usability, accessibility, and collaboration of a project. It serves as the main source of information, allowing users and developers to quickly understand and engage with the project.
 
 I followed the criteria below provided by the class instructors.
 
@@ -49,15 +52,15 @@ The following image shows the web application after I edited the code.
 ![Professional README Generator](./assets/images)
 
 ## Credits
-- 
-- 
-- 
+- [W3School - NODE ](https://www.w3schools.com/nodejs/default.asp)
+- [Youtube - Node ](https://www.youtube.com/watch?v=pkg0J6lpKT4)
+- [ReadMe Editor](https://readme.so/)
 ### License Images used 
-[MIT License:](https://img.shields.io/badge/License-MIT-yellow.svg)
-[GNU GPLv3:](https://img.shields.io/badge/License-GPLv3-blue.svg)
-[Apache License 2.0:](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-[ISC License: License:](https://img.shields.io/badge/License-ISC-blue.svg) 
-[BSD 2-Clause "Simplified" License:](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)
+- [MIT License:](https://img.shields.io/badge/License-MIT-yellow.svg)
+- [GNU GPLv3:](https://img.shields.io/badge/License-GPLv3-blue.svg)
+- [Apache License 2.0:](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+- [ISC License: License:](https://img.shields.io/badge/License-ISC-blue.svg) 
+- [BSD 2-Clause "Simplified" License:](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)
 
 
 **Note**: User story and acceptance criteria was provided to me in class
