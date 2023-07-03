@@ -51,9 +51,9 @@ I followed the criteria below provided by the class instructors.
  - Install the dependencies: npm install
 
  ## Usage
- To use the README Generator, run the following command inside the    "Utils" folder:
+ To use the README Generator, run the following command inside the "Utils" folder:
  - node index.js
- - Follow video if you have any issues.
+ - Follow [Video Demo](https://www.dropbox.com/s/4lkd0ie7z5j9xm6/Challenge9.mp4?dl=0) if you need further assistance.
  - Answer the prompts with information about your project.
 
 
@@ -87,7 +87,6 @@ The following image shows the web application after I edited the code.
 ## My Github
 
 - [Github](https://xnoirnightx.github.io/Professional-README-Generator/)
-- [![Video Demo](./utils/assets/thumbnail.png)](./utils/assets/Challenge9.mp4)
 
 ## License
 
