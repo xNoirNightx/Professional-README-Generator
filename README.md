@@ -41,7 +41,7 @@ I followed the criteria below provided by the class instructors.
 - WHEN I click on the links in the Table of Contents
 - THEN I am taken to the corresponding section of the README
 
- **Note**:  .
+ **Note**: Im not a fan of back end hahah.
 
 ## Mock-Up
 
@@ -49,12 +49,13 @@ The following image shows the web application after I edited the code.
 
 **Note**: This image is a screen shot once I finished the assisnment.
 
-![Professional README Generator](./assets/images)
+![Professional README Generator](./utils/assets/screenshot1.png)
 
 ## Credits
 - [W3School - NODE ](https://www.w3schools.com/nodejs/default.asp)
 - [Youtube - Node ](https://www.youtube.com/watch?v=pkg0J6lpKT4)
 - [ReadMe Editor](https://readme.so/)
+
 ### License Images used 
 - [MIT License:](https://img.shields.io/badge/License-MIT-yellow.svg)
 - [GNU GPLv3:](https://img.shields.io/badge/License-GPLv3-blue.svg)
@@ -68,7 +69,8 @@ The following image shows the web application after I edited the code.
 
 ## My Github
 
-- [Github](https://github.com/xNoirNightx/)
+- [Github](https://github.com/xNoirNightx/Password-Generator)
+- [![Video Demo](./utils/assets/thumbnail.png)](./utils/assets/Challenge9.mp4)
 
 ## License
 
