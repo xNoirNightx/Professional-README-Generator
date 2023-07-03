@@ -6,52 +6,84 @@ const generateMarkdown = require('./generateMarkdown');
 const questions = [
     {
         type: 'input',
-        name: 'title',
-        message: 'project title:'
+        name: 'Title',
+        message: 'Enter the project title:'
       },
       {
         type: 'input',
-        name: 'title',
-        message: ':'
+        name: 'Description',
+        message: 'Enter the project description:'
       },
       {
         type: 'input',
-        name: 'title',
-        message: ':'
+        name: 'Installation',
+        message: 'Enter the installation instructions:'
       },
       {
         type: 'input',
-        name: 'title',
-        message: ':'
+        name: 'Usage',
+        message: 'Enter the usage information:'
+      },
+      {
+        type: 'list',
+        name: 'License',
+        message: 'Choose a license for your application:',
+        choices: [
+            'MIT License',
+            'GNU GPLv3',
+            'Apache License 2.0',
+            'ISC License',
+            'BSD 2-Clause "Simplified" License',
+            // Add more license choices here
+        ]
       },
       {
         type: 'input',
-        name: 'title',
-        message: ':'
+        name: 'Contributing',
+        message: 'Enter the contribution guidelines:'
       },
       {
         type: 'input',
-        name: 'title',
-        message: ':'
+        name: 'Tests',
+        message: 'Enter the test instructions:'
       },
       {
         type: 'input',
-        name: 'title',
-        message: ':'
+        name: 'Github',
+        message: 'Enter your GitHub username:'
       },
-    //   add more prompts here for future edits
-];
+      {
+        type: 'input',
+        name: 'Email',
+        message: 'Enter your email address:'
+      }
+        //   add more prompts here for future edits
+    ];
+  
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeToFile
-}
+const writeToFile = (fileName, data) => {
+    fs.writeFile(fileName, data)
+      .then(() => {
+        console.log(`README.md file generated as ${fileName}!`);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then((answers)
-}
-
+    .then((answers) => {
+      const readmeContent = generateMarkdown(answers);
+      writeToFile('README.md', readmeContent);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+};
 // Function call to initialize app
 init();
+
+
