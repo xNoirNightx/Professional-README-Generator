@@ -52,6 +52,9 @@ The following image shows the web application after I edited the code.
 
 ![Professional README Generator](./utils/assets/screenshot1.png)
 
+**Note**: This image is a screen shot of the README after the generator ran as shown in the video.
+![Sample of Generated README](./utils/assets/sampleofgenerator.png)
+
 ## Credits
 - [W3School - NODE ](https://www.w3schools.com/nodejs/default.asp)
 - [Youtube - Node ](https://www.youtube.com/watch?v=pkg0J6lpKT4)
@@ -75,4 +78,4 @@ The following image shows the web application after I edited the code.
 
 ## License
 
-MIT
+[![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
